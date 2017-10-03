@@ -37,7 +37,7 @@ class NeuralNet(object):
 sess=tf.Session()
 init=tf.global_variables_initializer()
 sess=tf.Session()
-#init=tf.global_variables_initializer()
+init=tf.global_variables_initializer()
 nn=NeuralNet(3)
 nn.addDenseLayer(5,activation='relu')
 nn.addDenseLayer(5,activation='relu')
